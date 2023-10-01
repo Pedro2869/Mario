@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-text: #5900ff;
+    --color-bg: rgb(0, 128, 0);
+}
+
+p {
+    width: 100px;
+    height: 100px;
+
+    background-color: red;
+    text-align: center;
+
+    margin: auto;
+
+    border-radius: 10px; /* Deixa o objeto arredondado */
+    opacity: .6;
+}
+
